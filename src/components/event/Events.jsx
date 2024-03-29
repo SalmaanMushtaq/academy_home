@@ -7,7 +7,7 @@ function Events() {
         <div className="col-md-6">
           <img src="/images/event.png" alt="" className="img-fluid" />
         </div>
-        <div className="col-md-5 mt-5 ms-5">
+        <div className="col-md-5 mt-5 ms-md-5">
           <div className="row">
             <p>
               <strong className="fs-4">Events</strong>
