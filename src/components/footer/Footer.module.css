@@ -1,0 +1,25 @@
+.namaiNabi {
+  width: 100px;
+  height: 80px;
+}
+.footer_top {
+  background-image: url(images/footerBG1.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+.foot_content {
+  margin-top: 15rem;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  padding: 10px 0;
+}
+.footer {
+  background-image: url(images/footerBG2.jpg);
+  background-position: bottom;
+  background-size: contain;
+}

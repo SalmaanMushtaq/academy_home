@@ -1,0 +1,19 @@
+.courseContainer {
+  background-image: url(/images/landingImage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.content {
+  padding: 2rem;
+  color: #fff;
+}
+
+.right {
+  margin: auto;
+}
+
+.imageContainer {
+  max-width: 100%;
+}

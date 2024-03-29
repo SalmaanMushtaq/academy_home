@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+}
+
+.navbar .logo {
+  margin-right: 1.5rem;
+  color: #075e54;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.navbar .selectOption {
+  border-width: 2px;
+  border-color: #0f9d58;
+  color: #4caf50;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  border-radius: 0.25rem;
+  line-height: 1.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.navbar .searchContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .searchIcon {
+  position: absolute;
+  left: 0;
+  margin-left: 0.5rem;
+}
+
+.navbar .searchInput {
+  border-width: 2px;
+  border-color: #0f9d58;
+  color: #4caf50;
+  height: 2.5rem;
+  padding-left: 2.5rem;
+  padding-right: 4rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+  max-width: 16rem;
+}
+
+.navbar .navItem {
+  margin-right: 1.5rem;
+  color: #4caf50;
+}
+
+.navbar .signUpBtn {
+  font-size: 0.875rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.5;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #0f9d58;
+  color: #4caf50;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+.signUpBtn:hover {
+  background-color: #d39c41;
+  color: white;
+}

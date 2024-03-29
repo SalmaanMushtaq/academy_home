@@ -1,0 +1,11 @@
+.star_rating {
+  color: gold;
+}
+
+.star_icon {
+  margin-right: 2px;
+}
+.testomonial_card {
+  border: none;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.1);
+}

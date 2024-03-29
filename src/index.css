@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f2ed;
+  color: #114a37;
+}
+.base_color {
+  color: #d39c41;
+}
+.card {
+  color: #114a37;
+}
+.course_card {
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.course_card img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.course_card:hover img {
+  transform: scale(0.5);
+}
+
+.course_card:hover {
+  background-image: url("/images/background.avif");
+  background-size: cover;
+}
+
+.course_card:hover .card-body {
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  transform: translateY(-30%);
+}
+
+.course_card .course_card_text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.course_card:hover .course_card_text {
+  overflow: visible;
+  white-space: normal;
+}
+
+p {
+  text-align: justify;
+}
+
+.islamicPillarImg {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+}
+.islamicPillar p {
+  padding: 0;
+  font-size: 12px;
+}

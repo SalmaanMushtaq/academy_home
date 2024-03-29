@@ -1,0 +1,31 @@
+.maniLogo {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -40px;
+  left: 20%;
+  padding: 15px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.manifestoCard {
+  padding: 10px;
+  height: 16rem;
+}
+.manifestoCard {
+  border: none;
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.manifestoCard:hover {
+  background-image: url("/images/background.avif");
+  background-size: cover;
+  box-shadow: none;
+}
+.manifestoCard {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+}
