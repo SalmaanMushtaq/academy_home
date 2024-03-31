@@ -37,7 +37,10 @@ body {
   position: relative;
   transform: translateY(-30%);
 }
-
+.course_card:hover .course_card_text {
+  color: #bfbeb8;
+}
+/*  #FFFDF5*/
 .course_card .course_card_text {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -61,4 +64,32 @@ p {
 .islamicPillar p {
   padding: 0;
   font-size: 12px;
+}
+footer li {
+  position: relative;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+li::before {
+  content: "";
+  background-color: #075e54;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+li:hover::before {
+  width: 100%;
+}
+li:hover {
+  color: #fff;
 }

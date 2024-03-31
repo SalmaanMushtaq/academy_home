@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
@@ -66,21 +66,34 @@
   color: #4caf50;
 }
 
-.navbar .signUpBtn {
-  font-size: 0.875rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 1.5;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #0f9d58;
-  color: #4caf50;
+.signUpBtn {
+  position: relative;
+  background-color: transparent;
+  border: 2px solid #075e54;
   border-radius: 0.25rem;
-  transition: background-color 0.3s ease;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #4caf50;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
 }
-.signUpBtn:hover {
-  background-color: #d39c41;
-  color: white;
+
+.signUpBtn::before {
+  content: "";
+  background-color: #f0ae45;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.signUpBtn:hover::before {
+  width: 100%;
+  color: #fff;
 }

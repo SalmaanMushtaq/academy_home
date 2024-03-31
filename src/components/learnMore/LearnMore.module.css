@@ -1,3 +1,33 @@
 .imageContainer {
   position: absolute;
 }
+.learnMoreBtn {
+  position: relative;
+  background-color: #075e54;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.learnMoreBtn::before {
+  content: "";
+  background-color: #f0ae45;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.learnMoreBtn:hover::before {
+  width: 100%;
+  color: #fff;
+}

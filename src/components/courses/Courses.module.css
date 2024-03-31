@@ -17,3 +17,53 @@
 .imageContainer {
   max-width: 100%;
 }
+.image1 {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
+.image3 {
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+}
+.image4 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.courseBtn {
+  position: relative;
+  background-color: #075e54;
+  border-radius: 0.25rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.courseBtn::before {
+  content: "";
+  background-color: #f0ae45;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.courseBtn:hover::before {
+  width: 100%;
+  color: #fff;
+}

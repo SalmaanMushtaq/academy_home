@@ -35,7 +35,9 @@ function LearnMore() {
             <h1 className="text-success">Blossoming in the Garden </h1>
             <h1 className="text-warning">of Islamic Knowledge</h1>
             <p className="text-warning">ETHICAL & MORAL BELIEFS THAT GUIDES</p>
-            <button className="btn btn-success px-5 fs-6">Learn more</button>
+            <button className={`btn btn-success ${styles.learnMoreBtn}`}>
+              Learn more
+            </button>
           </div>
         </div>
         <div className="col-md-4 col-sm-12 d-flex align-items-center justify-content-end">

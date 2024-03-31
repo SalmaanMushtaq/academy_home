@@ -1,19 +1,18 @@
 import styles from "./Footer.module.css";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+
 function Footer() {
   return (
-    <div className={`container-fluid p-5 ${styles.footer} `}>
+    <footer className={`container-fluid p-5 ${styles.footer}`}>
       <div
-        className={`row justify-content-center align-items-center w-50 m-auto ${styles.footer_top}`}
+        className={`row justify-content-center align-items-center w-100 m-auto ${styles.footer_top}`}
       >
         <img
           src="/images/muhammad-sallallahu-alaihi-wasallam.png"
           alt=""
-          className={`${styles.namaiNabi}`}
+          className={`${styles.namaiNabi} my-3`}
         />
-        <p>
+        <p className="text-center">
           &ldquo;When Allah wishes good for someone, He bestows upon him the
           Understanding of Deen&ldquo;
         </p>
@@ -25,51 +24,55 @@ function Footer() {
         </p>
       </div>
       <div className={`row px-5 ${styles.foot_content}`}>
-        <div className="col-4 d-flex flex-column justify-content-end">
-          <div className="social_media">
-            <FaInstagram className="mx-2" />
-            <FaLinkedin className="mx-2" />
-            <FaGithub className="mx-2" />
+        <div className="col-md-4 mb-4 mb-md-0 d-flex flex-column justify-content-end">
+          <div className="d-flex justify-content-center justify-content-md-start">
+            <div className="social_media">
+              <FaInstagram className="mx-2" />
+              <FaLinkedin className="mx-2" />
+              <FaGithub className="mx-2" />
+            </div>
           </div>
-          <p className="mx-2 my-2">All Rights Reserved | 2024</p>
+          <p className="mx-2 my-2 text-center text-md-start">
+            All Rights Reserved | 2024
+          </p>
         </div>
-        <div className="col-2">
+        <div className="col-md-2 mb-4 mb-md-0">
           <h5>Regular Courses</h5>
           <ul>
-            <li>TarteelaQuran Qaida</li>
-            <li>Learn Qirat</li>
-            <li>Quran Memorization </li>
-            <li>Quran Reading</li>
+            <li className="px-2 my-1">TarteelaQuran Qaida</li>
+            <li className="px-2 my-1">Learn Qirat</li>
+            <li className="px-2 my-1">Quran Memorization </li>
+            <li className="px-2 my-1">Quran Reading</li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="col-md-2 mb-4 mb-md-0">
           <h5>Advanced Courses</h5>
           <ul>
-            <li>Arabic Language Course</li>
-            <li>Tafsir Course</li>
-            <li>Ijazazh Courses</li>
+            <li className="px-2 my-1">Arabic Language Course</li>
+            <li className="px-2 my-1">Tafsir Course</li>
+            <li className="px-2 my-1">Ijazazh Courses</li>
           </ul>
         </div>
-        <div className="col-2">
+        <div className="col-md-2 mb-4 mb-md-0">
           <h5>Links</h5>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Services</li>
+            <li className="px-2 my-1">Home</li>
+            <li className="px-2 my-1">About</li>
+            <li className="px-2 my-1">Blog</li>
+            <li className="px-2 my-1">Services</li>
           </ul>
         </div>
-        <div className="col-2">
-          <h5>Addmissions</h5>
+        <div className="col-md-2">
+          <h5>Admissions</h5>
           <ul>
-            <li>Tuition & Financial Aid</li>
-            <li>How To Apply</li>
-            <li>fee Payment</li>
-            <li>FAQs</li>
+            <li className="px-2 my-1">Tuition & Financial Aid</li>
+            <li className="px-2 my-1">How To Apply</li>
+            <li className="px-2 my-1">Fee Payment</li>
+            <li className="px-2 my-1">FAQs</li>
           </ul>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 
