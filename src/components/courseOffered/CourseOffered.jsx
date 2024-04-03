@@ -12,7 +12,7 @@ function CourseOffered() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className="card text-success course_card">
             <img
-              src="/images/arabic.png"
+              src="/images/Teacher.png"
               className={styles.card_img_top}
               alt="..."
             />
@@ -27,7 +27,7 @@ function CourseOffered() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className="card text-success course_card">
             <img
-              src="/images/quran.png"
+              src="/images/Childs.png"
               className={styles.card_img_top}
               alt="..."
             />
@@ -42,7 +42,7 @@ function CourseOffered() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className="card text-success course_card">
             <img
-              src="/images/books.png"
+              src="/images/Library.png"
               className={styles.card_img_top}
               alt="..."
             />
@@ -58,11 +58,7 @@ function CourseOffered() {
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-5 mt-5 text-success islamicPillar">
         <div className="col d-flex flex-column justify-content-center align-items-center">
           <span className="rounded-circle border border-warning">
-            <img
-              src="/islamic/shadat.png"
-              alt=""
-              className="islamicPillarImg"
-            />
+            <img src="/images/Qalima.png" alt="" className="islamicPillarImg" />
           </span>
           <h5 className="my-3">Swam</h5>
           <p>
@@ -71,7 +67,7 @@ function CourseOffered() {
         </div>
         <div className="col d-flex flex-column justify-content-center align-items-center">
           <span className="rounded-circle border border-warning">
-            <img src="/islamic/nemaz.png" alt="" className="islamicPillarImg" />
+            <img src="/images/prayer.png" alt="" className="islamicPillarImg" />
           </span>
           <h5 className="my-3">Nemaaz</h5>
           <p>
@@ -80,11 +76,7 @@ function CourseOffered() {
         </div>
         <div className="col d-flex flex-column justify-content-center align-items-center">
           <span className="rounded-circle border border-warning">
-            <img
-              src="/islamic/ramazan.png"
-              alt=""
-              className="islamicPillarImg"
-            />
+            <img src="/images/roza.png" alt="" className="islamicPillarImg" />
           </span>
           <h5 className="my-3">Ramadan</h5>
           <p>
@@ -93,7 +85,7 @@ function CourseOffered() {
         </div>
         <div className="col d-flex flex-column justify-content-center align-items-center">
           <span className="rounded-circle border border-warning">
-            <img src="/islamic/zakat.png" alt="" className="islamicPillarImg" />
+            <img src="/images/zakat.png" alt="" className="islamicPillarImg" />
           </span>
           <h5 className="my-3">Zakkat</h5>
           <p>
@@ -102,7 +94,7 @@ function CourseOffered() {
         </div>
         <div className="col d-flex flex-column justify-content-center align-items-center">
           <span className="rounded-circle border border-warning">
-            <img src="/islamic/haj.png" alt="" className="islamicPillarImg" />
+            <img src="/images/hajj.png" alt="" className="islamicPillarImg" />
           </span>
           <h5 className="my-3">Hajj</h5>
           <p>

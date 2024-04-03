@@ -14,9 +14,9 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle`}
             >
-              <img src="/islamic/quran.png" alt="" className="card-img-top" />
+              <img src="/images/quran.png" alt="" className="card-img-top" />
             </span>
             <div className="card-body d-flex justify-content-center  flex-column gap-2">
               <h5 className="card-title">Online Learning</h5>
@@ -30,10 +30,10 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle `}
             >
               <img
-                src="/islamic/sprituality.png"
+                src="/images/sprituality.png"
                 alt=""
                 className="card-img-top"
               />
@@ -50,9 +50,9 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle `}
             >
-              <img src="/islamic/nemaz.png" alt="" className="card-img-top" />
+              <img src="/images/prayer.png" alt="" className="card-img-top" />
             </span>
             <div className="card-body d-flex justify-content-center  flex-column gap-2">
               <h5 className="card-title">Service</h5>
@@ -66,9 +66,9 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle `}
             >
-              <img src="/islamic/masjid.png" alt="" className="card-img-top" />
+              <img src="/images/masjid.png" alt="" className="card-img-top" />
             </span>
             <div className="card-body d-flex justify-content-center  flex-column gap-2">
               <h5 className="card-title">Community</h5>
@@ -82,10 +82,10 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle `}
             >
               <img
-                src="/islamic/certification.png"
+                src="/images/certification.png"
                 alt=""
                 className="card-img-top"
               />
@@ -102,9 +102,9 @@ function Manifesto() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
           <div className={`${styles.manifestoCard} card text-success pt-5`}>
             <span
-              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle bg-white`}
+              className={`${styles.maniLogo} card-img-top border border-warning rounded-circle `}
             >
-              <img src="/islamic/globe.png" alt="" className="card-img-top" />
+              <img src="/images/globe.png" alt="" className="card-img-top" />
             </span>
             <div className="card-body d-flex justify-content-center  flex-column gap-2">
               <h5 className="card-title">Learn from Anywhere Anytime</h5>

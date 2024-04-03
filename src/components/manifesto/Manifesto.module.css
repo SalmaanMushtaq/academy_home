@@ -7,6 +7,7 @@
   padding: 15px;
   transform: translateX(-50%);
   z-index: 1;
+  background-color: white;
 }
 
 .manifestoCard {
@@ -28,4 +29,15 @@
   background-image: url("/images/background.avif");
   background-size: cover;
   box-shadow: none;
+}
+.manifestoCard .card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+
+.manifestoCard:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.manifestoCard:hover .maniLogo {
+  background-color: rgba(241, 241, 132, 0.2);
 }

@@ -5,3 +5,31 @@
   border: none;
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
 }
+.eventDetails {
+  position: relative;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+.eventDetails::before {
+  content: "";
+  background-color: #075e54;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 800ms ease-in-out;
+  display: inline-block;
+}
+
+.eventDetails:hover::before {
+  width: 100%;
+}
+.eventDetails:hover {
+  color: #fff;
+}

@@ -1,5 +1,5 @@
-.imageContainer {
-  position: absolute;
+.learnMoreContainer {
+  background-image: url(images/Section.png);
 }
 .learnMoreBtn {
   position: relative;

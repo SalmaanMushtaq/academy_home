@@ -35,7 +35,9 @@ function Events() {
                 Lorem ipsum dolor sit amet consectetur. Egestas netus tristique
                 urna sem ipsum volutpat. Vitae.
               </p>
-              <p className="pb-3 fs-5 border-bottom-0 p-3 border border-top-1 border-start-0 border-end-0">
+              <p
+                className={`pb-3 fs-5 border-bottom-0 p-3 border border-top-1 border-start-0 border-end-0 ${styles.eventDetails}`}
+              >
                 View Event Details &rarr;
               </p>
             </div>

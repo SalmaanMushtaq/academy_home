@@ -1,53 +1,72 @@
-.courseContainer {
-  background-image: url(/images/landingImage.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+/* .courseContainer {
+  height: 90vh;
+} */
+.row {
+  height: 100%;
 }
 
 .content {
-  padding: 2rem;
-  color: #fff;
+  padding: 3rem 2rem 0 3rem;
 }
-
-.right {
-  margin: auto;
+.content p {
+  color: #d39c41;
 }
-
 .imageContainer {
   max-width: 100%;
 }
-.image1 {
+.imageContainer {
+  display: flex;
+  justify-content: end;
+}
+.man {
+  height: 100%;
+}
+.imageCenter {
+  position: absolute;
+  bottom: 0;
+  height: 90%;
+  right: 25%;
+}
+.imageQuran {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+}
+.topLeftImage {
   position: absolute;
   top: 5rem;
   left: 0;
+  height: 30%;
 }
-.image2 {
+.topRightImage {
   position: absolute;
   top: 5rem;
   right: 0;
+  height: 30%;
 }
-.image3 {
+.childImage {
   position: absolute;
   bottom: 0;
-  left: 8%;
+  left: 4%;
 }
-.image4 {
+.middleImage {
   position: absolute;
-  top: 50%;
-  left: 40%;
+  top: 32%;
+  left: 37%;
 }
+
 .courseBtn {
   position: relative;
   background-color: #075e54;
   border-radius: 0.25rem;
-  padding: 0.5rem 2.5rem;
+  padding: 0.5rem 3.5rem;
   font-size: 0.875rem;
   cursor: pointer;
   color: #fff;
   transition: all 0.3s ease-in-out;
   z-index: 1;
   overflow: hidden;
+  margin-bottom: 30%;
 }
 
 .courseBtn::before {
