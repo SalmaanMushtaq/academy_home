@@ -22,7 +22,7 @@ function LearnMore() {
             </button>
           </div>
         </div>
-        <div className="col-md-5 col-sm-12 py-5 px-5">
+        <div className="col-md-5 col-sm-12 p-md-5 p-lg-5">
           <img
             src="images/bismillah.png"
             alt="bismillah"

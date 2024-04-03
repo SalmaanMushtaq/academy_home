@@ -23,7 +23,7 @@ function Events() {
           </div>
           <div className="row border border-warning p-2">
             <div className="col-2">
-              <h3>MAR 04</h3>
+              <h3 className="text-center">MAR 04</h3>
             </div>
             <div className="col-10">
               <h3>Ramadan Workshop</h3>
