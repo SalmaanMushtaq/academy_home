@@ -16,9 +16,10 @@ body {
 .course_card {
   position: relative;
   overflow: hidden;
-  height: 70vh;
 }
-
+.course_card .card-body {
+  height: 8rem;
+}
 .course_card img {
   transition: transform 0.5s ease-in-out;
 }
