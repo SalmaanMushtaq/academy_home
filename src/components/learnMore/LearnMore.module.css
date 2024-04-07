@@ -16,18 +16,23 @@
 
 .learnMoreBtn::before {
   content: "";
-  background-color: #f0ae45;
+  background-color: #ffb607;
+  border-radius: 0 133px 133px 0%;
   width: 0;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transition: width 800ms ease-in-out;
+  transition: width 300ms ease-in-out;
   display: inline-block;
 }
 
 .learnMoreBtn:hover::before {
   width: 100%;
   color: #fff;
+}
+.learnMoreBtn:hover {
+  background-color: #ffb607;
+  border: none;
 }

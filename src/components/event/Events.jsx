@@ -35,10 +35,12 @@ function Events() {
                 Lorem ipsum dolor sit amet consectetur. Egestas netus tristique
                 urna sem ipsum volutpat. Vitae.
               </p>
-              <p
-                className={`pb-3 fs-5 border-bottom-0 p-3 border border-top-1 border-start-0 border-end-0 ${styles.eventDetails}`}
-              >
-                View Event Details &rarr;
+              <p className="fs-5 mb-0 border-bottom-0 border border-top-1 border-start-0 border-end-0">
+                <button
+                  className={`${styles.eventDetails} border-0 fs-3 px-3 mt-3 fw-medium`}
+                >
+                  View Event Details &rarr;
+                </button>
               </p>
             </div>
           </div>

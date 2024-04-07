@@ -77,14 +77,14 @@ footer li {
 }
 footer li::before {
   content: "";
-  background-color: #075e54;
+  background-color: #194d37;
   width: 0;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  transition: width 800ms ease-in-out;
+  transition: width 300ms ease-in-out;
   display: inline-block;
 }
 
@@ -92,6 +92,7 @@ footer li:hover::before {
   width: 100%;
 }
 footer li:hover {
+  background-color: #194d37;
   color: #fff;
 }
 
@@ -104,5 +105,5 @@ footer li:hover {
 }
 
 .islamicPillar div:hover span {
-  background-color: #f1f18430;
+  background-color: #fffdf5;
 }
